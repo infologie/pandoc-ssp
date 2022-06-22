@@ -39,7 +39,7 @@ Here is an example diagram of the conversion process. Your mileage may vary. For
 
 ![Example diagram of the conversion process used in this template](https://www.arthurperret.fr/img/pandoc-ssp-condensed.png)
 
-[Click here](https://www.arthurperret.fr/img/pandoc-ssg.pdf) to download a one-page PDF cheatsheet with the diagram, file tree and Makefile.
+[Click here](https://www.arthurperret.fr/img/pandoc-ssp.pdf) to download a one-page PDF cheatsheet with the diagram, file tree and Makefile.
 
 Again, everything is adaptable.
 
