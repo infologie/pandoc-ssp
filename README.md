@@ -8,7 +8,7 @@ I wrote about this in a blog post: [Single-source publishing with Pandoc and Mak
 
 ## ⚠️ Disclaimer
 
-**This repository does not work as a self-demonstrating example.** Do not try running `make` directly: since most of the files are empty, the process will inevitably fail. Instead, replace the files with your own.
+**This repository does not work as a self-demonstrating example.** Do not try running `make` directly: since most of the files are empty, the process will inevitably fail. Instead, replace the files with your own, then run `make`.
 
 **This is a small tool, for basic needs.** You may be interested in a more advanced system based on Pandoc, such as [Manubot](https://manubot.org) or [Quarto](https://quarto.org). But if (like me) you usually try out simple tools first, read on.
 
@@ -46,3 +46,32 @@ Here is an example diagram of the conversion process. Your mileage may vary. For
 Again, everything is adaptable.
 
 I hope you find it useful.
+
+## How to use it
+
+Download the repository and **replace the files with your own**. Then, open a terminal and move to the directory.
+
+Run either of the following commands to export both HTML and PDF:
+
+```
+make
+```
+
+or
+
+```
+make all
+```
+
+Run the following command to export HTML:
+
+```
+make html
+```
+
+Run the following command to export PDF:
+
+```
+make html
+```
+
