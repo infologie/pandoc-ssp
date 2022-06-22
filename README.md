@@ -37,7 +37,7 @@ I deliberately left the Pandoc options blank and included only empty files (exce
 
 Here is an example diagram of the conversion process. Your mileage may vary. For instance, you may want to use `metadata.yml` in both conversion processes.
 
-![](https://www.arthurperret.fr/img/pandoc-ssg-condensed.png)
+![Example diagram of the conversion process used in this template](https://www.arthurperret.fr/img/pandoc-ssp-condensed.png)
 
 [Click here](https://www.arthurperret.fr/img/pandoc-ssg.pdf) to download a one-page PDF cheatsheet with the diagram, file tree and Makefile.
 
