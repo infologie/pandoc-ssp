@@ -2,7 +2,9 @@
 
 This a template for single-source academic publishing with [Pandoc](https://pandoc.org/). It illustrates how you can use [Make](https://www.gnu.org/software/make/) to automate a complex conversion process.
 
-I ([Arthur Perret](https://www.arthurperret.fr)—hello!) use this to export my PhD dissertation in HTML and PDF from the same collection of text files. If you’re a researcher looking to turn your scientific writing into HTML and PDF from a single source, this template provides directions to do so.
+I use this setup to export my PhD dissertation in HTML and PDF from the same collection of text files. If you’re a researcher looking to turn your scientific writing into HTML and PDF from a single source, this template provides directions to do so.
+
+I wrote about this in a blog post: [Single-source publishing with Pandoc and Make](https://www.arthurperret.fr/blog/2022-06-22-single-source-publishing-pandoc-make.html).
 
 ## ⚠️ Disclaimer
 
