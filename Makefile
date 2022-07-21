@@ -16,7 +16,7 @@ CHAPTERS_OUT := $(patsubst %.md, output/%.html, $(notdir $(CHAPTERS)))
 STATIC := $(shell find static -type f)
 STATIC_OUT := $(patsubst static/%, output/%, $(STATIC))
 $(foreach s,$(STATIC),$(foreach t,$(filter %$(notdir $s),$(STATIC_OUT)),$(eval $t: $s)))
-$(STATIC_OUT):; $(if $(wildcard $(@D)),,mkdir -p $(@D) &&) cp $^ $@
+$(STATIC_OUT):; $(if $(wildcard $(@D)),,mkdir -p $(@D) &&) cp $< $@
 
 # Pandoc conversions
 
